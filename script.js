@@ -5,7 +5,7 @@ function firstWord(s) {
 			break;
 		A+=s[x];
 	}
-	return A;
+	return "'"+A+"'";
 }
 
 // Do not change the code below
