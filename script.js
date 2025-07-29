@@ -1,7 +1,11 @@
 function firstWord(s) {
-	
-  const A=s.split(' ');
-	return A[0].trim();
+	let A="";
+	for(let x in s){
+		if(s[x]==' ')
+			break;
+		A+=s[x];
+	}
+	return A;
 }
 
 // Do not change the code below
