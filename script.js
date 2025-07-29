@@ -1,11 +1,12 @@
 function firstWord(s) {
+	s=s.trim();
 	let A="";
 	for(let x in s){
 		if(s[x]==' ')
 			break;
 		A+=s[x];
 	}
-	return "'"+A+"'";
+	return A;
 }
 
 // Do not change the code below
